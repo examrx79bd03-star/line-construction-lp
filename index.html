@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LINE構築サポート｜店舗・クリエイターのためのLINE公式アカウント構築代行</title>
+<meta name="description" content="飲食・サロン・小売の再来店も、クリエイターのファン化も。LINE公式アカウント／Lメッセージの構築をまるごと代行します。まずは30秒でデモを体験。">
+<!-- 転送・URL共有での見え方用。og:image は公開時に実画像へ差し替え -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="LINE構築サポート｜LINEを“集客・リピートの仕組み”に変える">
+<meta property="og:description" content="店舗・クリエイターのためのLINE構築代行。まずは30秒でデモを体験。">
+<!-- <meta property="og:image" content="（公開URL）/assets/ogp.png"> -->
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- data-tab: 'store' | 'creator'（初期は store）。④課題・⑤できること・⑦事例を連動切替 -->
+<body data-tab="store">
+
+  <!-- ===== ① 固定ヘッダー ===== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark"><span>L</span></span>
+        <span class="brand__name">LINE構築サポート</span>
+      </a>
+      <a class="header-cta" href="#contact">相談する</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+  <!-- ===== ② ファーストビュー ===== -->
+  <section class="fv">
+    <div class="fv__grid">
+      <div>
+        <div class="fv__badge">
+          <span class="dot"></span>
+          <span>店舗・クリエイターのためのLINE構築代行</span>
+        </div>
+        <h1>LINEを<span class="accent"><span class="nowrap">“集客・リピート</span>の仕組み”</span>に変える。</h1>
+        <p class="fv__sub">飲食・サロン・小売の再来店も、クリエイターのファン化も。LINE公式アカウント／Lメッセージの構築を、まるごと代行します。</p>
+
+        <!-- デュアルCTA -->
+        <div class="dual-cta">
+          <div class="cta-col">
+            <span class="cta-micro cta-micro--primary">30秒で完了・いつでもブロックOK</span>
+            <a class="btn btn--primary" href="#demo">▶ 今すぐデモを体験する</a>
+          </div>
+          <div class="cta-col">
+            <span class="cta-micro cta-micro--secondary">無料・オンラインOK</span>
+            <a class="btn btn--secondary" href="#contact">まずは相談する</a>
+          </div>
+        </div>
+
+        <!-- 信頼バッジ -->
+        <div class="trust">
+          <!-- 出典: LINEヤフー社 自社発表値（開封率 約55%＝2022年6月時点・配信内容で変動） -->
+          <div class="trust__item">
+            <div class="trust__num">約55<small>%</small></div>
+            <div class="trust__label">LINEメッセージ<br>開封率</div>
+          </div>
+          <!-- 出典: LINEヤフー社 自社発表値（国内月間利用者 約9,800万人〜1億人規模・2025年時点） -->
+          <div class="trust__item">
+            <div class="trust__num">1<small>億人</small></div>
+            <div class="trust__label">国内LINE<br>利用者数</div>
+          </div>
+          <!-- 構築実績件数: 完了案件数。実数が違えば差し替え -->
+          <div class="trust__item">
+            <div class="trust__num"><span class="todo-value">2</span><small>件</small></div>
+            <div class="trust__label">構築実績</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ヒーロー画像（公開時に実写 or 手書き風イラストへ差し替え） -->
+      <div class="hero-media">
+        <div class="hero-media__frame">
+          <span class="ph-note">人物写真 / 打ち合わせ風景</span>
+        </div>
+        <div class="hero-media__float">
+          <div class="ic">💬</div>
+          <div>
+            <div class="t">友だち追加されました</div>
+            <div class="s">たった今</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ③ ターゲット選択タブ ===== -->
+  <section class="tabs">
+    <p class="tabs__q">あなたはどちらですか？</p>
+    <div class="tabs__track" role="tablist" aria-label="ターゲット選択">
+      <button class="tab-btn" id="tab-store" role="tab" aria-selected="true" data-tab-target="store">🏪 実店舗のかた</button>
+      <button class="tab-btn" id="tab-creator" role="tab" aria-selected="false" data-tab-target="creator">🎤 クリエイター・講師</button>
+    </div>
+    <p class="tabs__hint">
+      <span class="hint-store">飲食店・サロン・小売店・整体院などの店舗オーナーさま向け</span>
+      <span class="hint-creator">クリエイター・講師・コーチ・オンライン販売のかた向け</span>
+    </p>
+  </section>
+
+  <!-- ===== ④ 課題提起（タブ連動） ===== -->
+  <section class="problem">
+    <!-- store -->
+    <div class="tab-store">
+      <h2>店舗オーナーの、こんなお悩み</h2>
+      <div class="worry-list">
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">一度来てくれたお客様が、戻ってこない…</span></div>
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">紙のポイントカードが続かない…</span></div>
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">急な空席・在庫を今日中に埋めたい…</span></div>
+      </div>
+      <div class="worry-lead"><span>その悩み、LINEで解決できます。</span></div>
+    </div>
+    <!-- creator -->
+    <div class="tab-creator">
+      <h2>クリエイターの、こんなお悩み</h2>
+      <div class="worry-list">
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">SNSに投稿しても、ファンに届いていない気がする…</span></div>
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">コアなファンともっと近づきたい…</span></div>
+        <div class="worry"><span class="worry__ic">😔</span><span class="worry__t">大事な告知がタイムラインに埋もれる…</span></div>
+      </div>
+      <div class="worry-lead"><span>LINEなら、“推し”とファンが直接つながれます。</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ⑤ LINEでできること（タブ連動） ===== -->
+  <section class="benefits">
+    <div class="section-head">
+      <p class="eyebrow">WHAT YOU CAN DO</p>
+      <h2 class="tab-store">実店舗のLINEでできること</h2>
+      <h2 class="tab-creator">クリエイターのLINEでできること</h2>
+    </div>
+
+    <!-- store -->
+    <div class="card-grid tab-store">
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🎟️</span><span class="benefit__t">クーポン配信</span></div>
+        <p class="benefit__d">再来店のきっかけを、狙ったタイミングで届ける。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">💳</span><span class="benefit__t">ショップカード</span></div>
+        <p class="benefit__d">紙いらずのデジタルポイント。来店ごとに自動で貯まる。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">📅</span><span class="benefit__t">LINE予約</span></div>
+        <p class="benefit__d">チャットからそのまま予約。電話対応の手間を減らす。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🔁</span><span class="benefit__t">再来店促進</span></div>
+        <p class="benefit__d">来店後◯日で自動メッセージ。“忘れられない”仕組み。</p>
+        <p class="benefit__note">💡 ステップ配信＝順番に自動でメッセージを送る機能</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🎯</span><span class="benefit__t">セグメント配信</span></div>
+        <p class="benefit__d">お客様を属性で分けて、響く人にだけ届ける。</p>
+        <p class="benefit__note">💡 セグメント＝お客様をグループ分けして配信すること</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🎰</span><span class="benefit__t">ガチャ・抽選</span></div>
+        <p class="benefit__d">遊び心で友だち追加を後押し。話題づくりにも。</p>
+      </div>
+    </div>
+
+    <!-- creator -->
+    <div class="card-grid tab-creator">
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">📣</span><span class="benefit__t">一斉配信</span></div>
+        <p class="benefit__d">新作・ライブ・募集を、ファン全員へ確実に届ける。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">💎</span><span class="benefit__t">限定コンテンツ</span></div>
+        <p class="benefit__d">LINE友だちだけの特典で、ファン化を後押し。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🗳️</span><span class="benefit__t">アンケート</span></div>
+        <p class="benefit__d">ファンの声を集めて、次の活動に活かす。</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🔁</span><span class="benefit__t">ステップ配信</span></div>
+        <p class="benefit__d">登録直後から自動で“ようこそ”の連続メッセージ。</p>
+        <p class="benefit__note">💡 ステップ配信＝順番に自動でメッセージを送る機能</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🎯</span><span class="benefit__t">セグメント配信</span></div>
+        <p class="benefit__d">興味のあるファンにだけ、関連する告知を届ける。</p>
+        <p class="benefit__note">💡 セグメント＝ファンをグループ分けして配信すること</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit__head"><span class="benefit__ic">🎰</span><span class="benefit__t">ガチャ・抽選</span></div>
+        <p class="benefit__d">参加型の企画で、ファンとの距離をぐっと縮める。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ⑥ デモ体験（タブ非連動・常に3枚） ===== -->
+  <section class="demo" id="demo">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:8px;">
+        <p class="eyebrow">TRY THE DEMO</p>
+        <h2>まずは、触って確かめてください</h2>
+        <p class="lead">気になるデモを友だち追加して、30秒で“LINEでできること”を体験。</p>
+      </div>
+      <div class="demo-grid">
+
+        <!-- 飲食店デモ -->
+        <div class="demo-card">
+          <div class="demo-card__thumb"><span class="ph-note">飲食店アカウント画面</span></div>
+          <h3>飲食店デモ</h3>
+          <p class="demo-card__label">このデモで体験できること</p>
+          <div class="demo-card__can">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">クーポンの受け取り体験</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ショップカードにスタンプ</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">メニュー・予約メニュー閲覧</span></div>
+          </div>
+          <div class="demo-card__foot">
+            <div class="qr-sm" aria-hidden="true"></div>
+            <a class="btn-add" href="#" data-demo="飲食店デモ">友だち追加</a>
+          </div>
+        </div>
+
+        <!-- サロンデモ -->
+        <div class="demo-card">
+          <div class="demo-card__thumb"><span class="ph-note">サロンアカウント画面</span></div>
+          <h3>サロンデモ</h3>
+          <p class="demo-card__label">このデモで体験できること</p>
+          <div class="demo-card__can">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">次回予約の自動リマインド</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">メニュー・料金の確認</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">スタッフ指名の流れ</span></div>
+          </div>
+          <div class="demo-card__foot">
+            <div class="qr-sm" aria-hidden="true"></div>
+            <a class="btn-add" href="#" data-demo="サロンデモ">友だち追加</a>
+          </div>
+        </div>
+
+        <!-- クリエイターデモ -->
+        <div class="demo-card">
+          <div class="demo-card__thumb"><span class="ph-note">クリエイター画面</span></div>
+          <h3>クリエイターデモ</h3>
+          <p class="demo-card__label">このデモで体験できること</p>
+          <div class="demo-card__can">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">限定コンテンツの受け取り</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ステップ配信の体験</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ファン向けアンケート</span></div>
+          </div>
+          <div class="demo-card__foot">
+            <div class="qr-sm" aria-hidden="true"></div>
+            <a class="btn-add" href="#" data-demo="クリエイターデモ">友だち追加</a>
+          </div>
+        </div>
+
+      </div>
+      <p class="note-center">※ デモ用アカウントです。営業メッセージは届きません。</p>
+    </div>
+  </section>
+
+  <!-- ===== ⑦ 活用ユースケース（タブ連動・ジグザグ） ===== -->
+  <section class="usecase">
+    <div class="section-head">
+      <p class="eyebrow">USE CASE</p>
+      <h2 class="tab-store">実店舗での、活用イメージ</h2>
+      <h2 class="tab-creator">クリエイターの、活用イメージ</h2>
+    </div>
+
+    <!-- store -->
+    <div class="usecase-list tab-store">
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">店内・料理の写真</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">飲食店</span>
+          <h3>雨の日クーポンで、空席を埋める</h3>
+          <p>天候や時間帯に合わせて自動でクーポンを配信。「今日行こう」を後押しし、ロスを減らします。</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">サロン・施術風景</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">サロン</span>
+          <h3>次回予約を、施術後に自動でひと押し</h3>
+          <p>来店から最適なタイミングでメッセージ。リピート率を無理なく底上げします。</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">店頭・商品の写真</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">小売</span>
+          <h3>お得意様だけに、入荷のお知らせ</h3>
+          <p>購入履歴に合わせてセグメント配信。“あなたのための”一通でファンを育てます。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- creator -->
+    <div class="usecase-list tab-creator">
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">講座・登壇の写真</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">講師</span>
+          <h3>講座の募集を、埋もれさせない</h3>
+          <p>タイムラインではなくLINEへ。開封率の高い1通で、申込みのチャンスを逃しません。</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">制作・作品の写真</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">クリエイター</span>
+          <h3>新作リリースを、ファン全員へ</h3>
+          <p>配信・グッズ・ライブ情報を確実に届け、初動の動きを最大化します。</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="usecase-card__media"><span class="ph-note">セッション風景</span></div>
+        <div class="usecase-card__body">
+          <span class="pill">コーチ</span>
+          <h3>体験から継続へ、自動で導線づくり</h3>
+          <p>登録後のステップ配信で信頼を育て、自然な流れで本契約につなげます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--
+    ===== ⑧ 料金（独立ブロック） =====
+    料金セクションの切替（00_統合ハンドオフ.md §4-2）:
+      ・丸ごと非表示にする → 下の <section id="pricing"> の data-visible を "false" に変更
+      ・全プランを「要相談」にする → 各 <span class="price-value"> のテキストを「要相談」に置換
+        （その際は .plan__monthly 行も削除/置換してください）
+      ・金額だけ変える → 各 .price-value のテキストを編集（独立要素なので1箇所ずつ差し替え可）
+  -->
+  <section class="pricing" id="pricing" data-visible="true">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">PRICE</p>
+        <h2>料金の目安</h2>
+        <p class="lead">ご予算と目的に合わせて、3つのプランからお選びいただけます。</p>
+      </div>
+      <div class="price-grid">
+
+        <!-- ライト（梅） -->
+        <div class="plan">
+          <div class="plan__name-row"><span class="plan__name">ライト</span><span class="plan__grade">（梅）</span></div>
+          <p class="plan__lead">まずは基本だけ整えたい方へ</p>
+          <div class="plan__price">
+            <div class="plan__price-cap">初期費用</div>
+            <span class="price-value">5万円〜</span>
+          </div>
+          <div class="plan__items">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">LINE公式アカウント初期設定</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">リッチメニュー作成（1種）</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">あいさつメッセージ設定</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">友だち追加用QR・バナー</span></div>
+          </div>
+          <a class="plan__cta plan__cta--ghost" href="#contact">このプランを相談する</a>
+        </div>
+
+        <!-- スタンダード（竹・人気No.1） -->
+        <div class="plan plan--popular">
+          <span class="plan__ribbon">★ 人気No.1</span>
+          <div class="plan__name-row"><span class="plan__name">スタンダード</span><span class="plan__grade">（竹）</span></div>
+          <p class="plan__lead">いちばん選ばれているプラン</p>
+          <div class="plan__price">
+            <div class="plan__price-cap">初期費用</div>
+            <span class="price-value">15万円〜</span>
+            <div class="plan__monthly">＋ <span class="price-value">月額 3万円〜</span></div>
+          </div>
+          <div class="plan__items">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ライトの内容すべて</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">リッチメニュー（複数・出し分け）</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ステップ配信の設計・構築</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">セグメント配信の設定</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">月1回の運用サポート</span></div>
+          </div>
+          <a class="plan__cta plan__cta--solid" href="#contact">このプランを相談する</a>
+        </div>
+
+        <!-- プロ（松） -->
+        <div class="plan">
+          <div class="plan__name-row"><span class="plan__name">プロ</span><span class="plan__grade">（松）</span></div>
+          <p class="plan__lead">本格的に仕組み化したい方へ</p>
+          <div class="plan__price">
+            <div class="plan__price-cap">初期費用</div>
+            <span class="price-value">30万円〜</span>
+            <div class="plan__monthly">＋ <span class="price-value">月額 5万円〜</span></div>
+          </div>
+          <div class="plan__items">
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">スタンダードの内容すべて</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">Lメッセージ連携・高度な自動化</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">会員システム・ポイント連携</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">ガチャ・抽選などの企画構築</span></div>
+            <div class="check"><span class="check__mark">✓</span><span class="check__t">月2回の運用＆改善サポート</span></div>
+          </div>
+          <a class="plan__cta plan__cta--ghost" href="#contact">このプランを相談する</a>
+        </div>
+
+      </div>
+      <p class="price-foot">※ Lメッセージの無料プラン活用で、<b>月額ツール費0円</b>から始められます。表示価格は税別の目安です。</p>
+    </div>
+  </section>
+
+  <!-- ===== ⑨ 構築スピード・納期 ===== -->
+  <section class="speed">
+    <div class="speed__box">
+      <!-- 「最短◯営業日」: 実数が未確定。確定するまで公開しない選択も可（景表法配慮） -->
+      <h2>ヒアリングから最短<span class="accent"><span class="todo-value">◯</span>営業日</span>で公開。</h2>
+      <p class="lead">デモは、今日この場で体験いただけます。</p>
+      <div class="speed__steps">
+        <div class="speed__tile"><div class="em">💬</div><div class="t">相談</div></div>
+        <div class="speed__arrow">→</div>
+        <div class="speed__tile"><div class="em">🛠️</div><div class="t">構築</div></div>
+        <div class="speed__arrow">→</div>
+        <div class="speed__tile"><div class="em">🚀</div><div class="t">公開</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ⑩ 構築実績（事実ベース） ===== -->
+  <!-- 掲載は許諾済みのもののみ実名、未許諾は匿名表記とする -->
+  <section class="works">
+    <div class="section-head">
+      <p class="eyebrow">WORKS</p>
+      <h2>構築実績</h2>
+      <div class="works__count">
+        <span>🤝</span>
+        <span class="t">これまでに<span class="todo-value">2社</span>の構築をサポートしました</span>
+      </div>
+    </div>
+    <div class="works-grid">
+
+      <!-- 実績1（匿名表記） -->
+      <div class="work">
+        <span class="pill">高級割烹</span>
+        <p class="work__body">エルメの無料プランで、ゴールド／プラチナ／ダイヤモンドの3ランク会員制度を構築。会員ごとの有効期限を自動で管理し、月額ツール費0円で運用できる仕組みにしました。</p>
+        <div class="work__foot">
+          <span class="work__ic">🍶</span>
+          <span class="work__who">高級割烹店 様</span>
+        </div>
+      </div>
+
+      <!-- 実績2（実名・許諾済み） -->
+      <div class="work">
+        <span class="pill">ゲーム制作</span>
+        <p class="work__body">周年イベントと連動した公式LINEを構築。1日1回のガチャ（ハズレなし）と累計ポイントの景品交換、イベント進行に合わせて切り替わるリッチメニューで、ファンとの接点を設計しました。</p>
+        <div class="work__foot">
+          <span class="work__ic">🎮</span>
+          <span class="work__who">株式会社KUU 様</span>
+        </div>
+      </div>
+
+      <!-- 対応の幅（実在クライアントではなく対応力の提示） -->
+      <div class="work">
+        <span class="pill">対応の幅</span>
+        <p class="work__body">会員制度・ガチャ・予約導線・ステップ配信まで。無料プランの工夫から本格的な自動化まで、目的に合わせて幅広く構築できます。</p>
+        <div class="work__foot">
+          <span class="work__ic">🛠️</span>
+          <span class="work__who">ご相談内容に合わせて設計します</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ⑪ 制作の流れ ===== -->
+  <section class="flow">
+    <div class="wrap-narrow">
+      <div class="section-head" style="margin-bottom:30px;">
+        <p class="eyebrow">FLOW</p>
+        <h2>ご相談から公開までの流れ</h2>
+      </div>
+      <div class="flow-list">
+        <div class="flow-step">
+          <div class="flow-step__ic">💬<span class="flow-step__n">01</span></div>
+          <div class="flow-step__body"><h3>無料相談</h3><p>オンラインで現状とご希望をヒアリング。しつこい営業はしません。</p></div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step__ic">📝<span class="flow-step__n">02</span></div>
+          <div class="flow-step__body"><h3>ヒアリング・お見積り</h3><p>目的に合わせた構成とお見積りをご提案します。</p></div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step__ic">🛠️<span class="flow-step__n">03</span></div>
+          <div class="flow-step__body"><h3>構築</h3><p>メニュー・配信・自動化までまるごと制作。進捗も共有します。</p></div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-step__ic">🚀<span class="flow-step__n">04</span></div>
+          <div class="flow-step__body"><h3>公開・運用サポート</h3><p>公開後も伴走。改善のご提案まで続けてサポートします。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ⑫ FAQ ===== -->
+  <section class="faq">
+    <div class="section-head">
+      <p class="eyebrow">FAQ</p>
+      <h2>よくあるご質問</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <button class="faq-q" aria-expanded="true">
+          <span class="faq-q__mark">Q</span>
+          <span class="faq-q__t">LINE公式アカウントとLメッセージの違いは？</span>
+          <span class="faq-q__sign">−</span>
+        </button>
+        <div class="faq-a"><p>LINE公式アカウントは「お店のLINE」そのもの、Lメッセージはそこに高度な配信・自動化の機能を足すツールです。目的に合わせて、必要な範囲だけ使い分けてご提案します。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span class="faq-q__mark">Q</span>
+          <span class="faq-q__t">無料で始められますか？</span>
+          <span class="faq-q__sign">＋</span>
+        </button>
+        <div class="faq-a"><p>はい。LINE公式アカウントの無料プラン＋Lメッセージの無料プランを活用すれば、月額のツール費0円からスタートできます。構築費だけで始められるプランもご用意しています。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span class="faq-q__mark">Q</span>
+          <span class="faq-q__t">専門知識がなくても運用できますか？</span>
+          <span class="faq-q__sign">＋</span>
+        </button>
+        <div class="faq-a"><p>大丈夫です。日々の配信は数タップで完了するように設計し、操作マニュアルもお渡しします。運用サポート付きのプランなら、いっしょに改善していけます。</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span class="faq-q__mark">Q</span>
+          <span class="faq-q__t">どのくらいの期間で作れますか？</span>
+          <span class="faq-q__sign">＋</span>
+        </button>
+        <!-- 「最短◯営業日」: ⑨と同じ要確認プレースホルダー -->
+        <div class="faq-a"><p>内容によりますが、ヒアリングから最短<span class="todo-value">◯</span>営業日で公開できます。デモは今日この場ですぐ体験いただけます。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ⑬ 最終CTA ===== -->
+  <section class="final-cta" id="contact">
+    <div class="final-cta__blob final-cta__blob--1"></div>
+    <div class="final-cta__blob final-cta__blob--2"></div>
+    <div class="final-cta__inner">
+      <h2>まずは、触ってみてください。</h2>
+      <p class="final-cta__sub">30秒で“LINEでできること”がわかります。<br>気軽にデモを体験して、それから相談してください。</p>
+      <div class="dual-cta">
+        <div class="cta-col">
+          <span class="cta-micro cta-micro--light">30秒で完了・いつでもブロックOK</span>
+          <a class="btn btn--light" href="#demo">▶ 今すぐデモを体験する</a>
+        </div>
+        <div class="cta-col">
+          <span class="cta-micro cta-micro--light">無料・オンラインOK</span>
+          <a class="btn btn--outline-light" href="#contact">まずは相談する</a>
+        </div>
+      </div>
+      <div class="qr-big">
+        <div class="qr-big__img" aria-hidden="true"></div>
+        <span class="qr-big__cap">QRコードからも友だち追加できます</span>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ===== ⑭ フッター ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__brand">
+        <span class="site-footer__mark"><span>L</span></span>
+        <span class="brand__name">LINE構築サポート</span>
+      </div>
+      <p class="site-footer__desc">LINE公式アカウント／Lメッセージの構築代行。店舗オーナー・クリエイターのみなさまの「集客とリピートの仕組みづくり」に、寄り添って伴走します。</p>
+      <div class="site-footer__meta">
+        <!-- 公開前に差し替え: 運営者名・問い合わせ先 -->
+        <span>運営者：（運営者名 プレースホルダー）</span>
+        <span>お問い合わせ：（メール／LINE プレースホルダー）</span>
+      </div>
+      <div class="site-footer__copy">© 2026 LINE構築サポート. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- ===== ⑮ スマホ追従CTAバー ===== -->
+  <div class="sticky-bar">
+    <a class="sb-demo" href="#demo">▶ 今すぐ体験</a>
+    <a class="sb-contact" href="#contact">相談する</a>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
