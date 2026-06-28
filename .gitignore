@@ -2,8 +2,11 @@
 CLAUDE.md
 README.md
 
-# 画像配置の手引き（社名の加工指示を含むためリポジトリに出さない）
+# 画像配置の手引き（内部メモ）
 assets/README.txt
+
+# 未使用のブランドロゴ（サイト未参照・540x540）
+assets/_logos/
 
 # OS / エディタ
 Thumbs.db

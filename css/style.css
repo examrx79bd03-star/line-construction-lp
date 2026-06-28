@@ -343,7 +343,7 @@ a, button { min-height: 0; }
   padding: 16px; box-shadow: var(--sh-float); display: flex; flex-direction: column;
 }
 .demo-card__thumb {
-  border-radius: 15px; overflow: hidden; aspect-ratio: 16/10;
+  border-radius: 15px; overflow: hidden; aspect-ratio: 3/2;
   background: repeating-linear-gradient(135deg, #EDEAE2 0 12px, #F4F1EA 12px 24px);
   display: flex; align-items: center; justify-content: center; margin-bottom: 14px;
 }
